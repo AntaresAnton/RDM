@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', function () {
   const recipesContainer = document.getElementById('contenedor-recetas');
 
-  fetch('https://api.recetasdelmundo.uno/', {
+  fetch('https://api.recetasdelmundo.uno/recetas', {
     headers: {
       'Access-Control-Allow-Origin': '*'
     }
